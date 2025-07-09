@@ -123,7 +123,7 @@ func (g *JwtGenerator) signToken(c sobek.FunctionCall) sobek.Value {
 
 ## 編譯
 ```shell
-xk6 build --with github.com/demo/jwt=./jwt --output ../k6
+xk6 build --with github.com/leetcode-golang-classroom/jwt=. --output ../k6 
 ```
 
 ## 使用方式
