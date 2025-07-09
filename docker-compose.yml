@@ -1,0 +1,7 @@
+services:
+  xk6-jwt-sample:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xk6-jwt-sample
+    
